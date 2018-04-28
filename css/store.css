@@ -1,0 +1,33 @@
+/* Same as main. All of CSS styling code here is done from scratch by Bernard. */
+
+#innerBottomContainer div div:nth-child(-n+3)
+{
+	background-color: rgba(150, 160, 120, 0.6);
+}
+
+#innerBottomContainer div div:hover:nth-child(-n+3)
+{
+	background-color: rgba(150, 160, 120, 1);
+}
+
+.storeContinue
+{
+	text-align: right;
+}
+
+.selectedItem
+{
+	background-color: rgba(150, 250, 20, 0.6) !important;
+}
+
+#smallPackage img {
+	padding-top: 10px;
+}
+
+#mediumPackage img {
+	padding-top: 10px;
+}
+
+#largePackage img {
+	padding-top: 10px;
+}

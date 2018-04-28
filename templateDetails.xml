@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>petcompanions_wow</name>
+	<creationDate>2017-08-24</creationDate>
+	<author>Lee Bernard</author>
+	<authorEmail>lwkbite@gmail.com</authorEmail>
+	<authorUrl>https://keybase.io/intech</authorUrl>
+	<copyright>Lee Bernard 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>A specially crafted Joomla template for Pet Companions - FYP Project. This template can't be find anywhere online.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>
+		<folder>svg</folder>
+	</files>
+	<positions>
+		<position>mybblah</position>
+	</positions>
+</extension>

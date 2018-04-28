@@ -1,0 +1,44 @@
+/* After writing main.css, I find that there is some CSS property that I use a lot. So I decided to make classes for those property. */
+
+.border
+{
+	border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+}
+
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.blue
+{
+	color: blue;
+	text-decoration: underline;
+}
+
+.ul-purple
+{
+	color: purple;
+}
+
+.ul-purple a
+{
+	text-decoration: none;
+}
+
+.ul-purple a:hover
+{
+	text-decoration: underline;
+}
+
+.img-float-right
+{
+	float: right;
+}

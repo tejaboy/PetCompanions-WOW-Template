@@ -1,0 +1,139 @@
+/* All the CSS here is wrot by me (Bernard) from scratch - of course with online help */
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900");
+
+@font-face
+{
+	font-family: cutepixel;
+    src: url('../fonts/cutepixel.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	font-family: Alegreya Sans, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#header
+{
+	position: absolute;
+	width: 75%;
+	top: 0px;
+	left: 0;
+	right: 0;
+	padding: 30px;
+}
+
+#header img
+{
+	height: 100px;
+	float: left;
+}
+
+#header #signin
+{
+	position: absolute;
+	right: 0;
+	top: 125px;
+}
+
+#outerContainer
+{
+	position: absolute;
+	width: 75%;
+	/* height: 900px; */
+	top: 195px;
+	left: 0;
+	right: 0;
+	background-color: rgba(227, 203, 203, 0.6);
+	padding: 30px;
+	padding-top: 0;
+	border-radius: 20px 20px 0 0;
+}
+
+#innerContainerTitle
+{
+	text-align: center;
+}
+
+#innerContainerTitle h1
+{
+	font-family: cutepixel;
+}
+
+#innerTopContainer
+{
+	width: 95%;
+	background-color: rgba(227, 203, 203, 0.6);
+	border-radius: 20px;
+	margin-bottom: 42px;
+}
+
+#innerTopContainer div
+{
+	height: 100%;
+}
+
+#innerTopContainer-right a
+{
+	color: purple;
+}
+
+#innerTopContainer-left
+{
+	background-color: red;
+	border-radius: 20px 0 0 20px;
+}
+
+#innerTopContainer-left img
+{
+	border-radius: 20px 0 0 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#innerTopContainer-middle
+{
+	background-color: red;
+	border-radius: 20px;
+}
+
+#innerTopContainer-middle img
+{
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#innerTopContainer-right
+{
+	border-radius: 0 20px 20px 0;
+}
+
+#innerBottomContainer
+{
+	width: 95%;
+	height: auto;
+	background-color: rgba(227, 203, 203, 0.6);
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+	color: darkgreen;
+}
+
+#fixedFooter
+{
+	position: fixed;
+	background-color: pink;
+	padding-left: 2em;
+	padding-right: 2em;
+	bottom: 0;
+	opacity: 0.6;
+}
+
+#fixedFooter:hover
+{
+	opacity: 1;
+}
